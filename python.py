@@ -25,4 +25,4 @@ phrase = "Coding is life"
 print(phrase.upper())
 print(phrase.lower())
 print(phrase.upper().isupper())
-print(len)
+print(len(phrase))

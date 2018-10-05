@@ -17,3 +17,12 @@ print("He was "+ character_age +  " years old")
 print("He really like the name "+ character_name +",")
 print("But he didn't like being "+ character_age)
 
+"Working with string"
+"adding a new line into the string. Adding a backslash in python mean an escape"
+print("Coding is\n life")
+print("Coding is\" life")
+phrase = "Coding is life"
+print(phrase.upper())
+print(phrase.lower())
+print(phrase.upper().isupper())
+print(len)

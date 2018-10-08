@@ -29,3 +29,14 @@ print(len(phrase))
 print(phrase[0])
 print(phrase.index('C'))
 print(phrase.replace('Coding','Learning'))
+
+
+"working with number"
+"we could use negative number, and decimal. We could also do basic arithmetic, order operation"
+print( 3+ 6)
+print(4 - 2)
+print( 5 * ( 9 * 3))
+" we could also change number to string"
+my_num = 6
+print(my_num)
+print(str( my_num ) + " is my favorite")

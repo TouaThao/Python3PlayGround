@@ -40,3 +40,10 @@ print( 5 * ( 9 * 3))
 my_num = 6
 print(my_num)
 print(str( my_num ) + " is my favorite")
+" Here we're going to round the number"
+print(round(3.7))
+" next we're going import more math to python"
+from math import*
+print(floor(3.2))
+print(ceil(4.2))
+print(sqrt(64))

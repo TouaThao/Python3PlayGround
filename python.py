@@ -47,3 +47,6 @@ from math import*
 print(floor(3.2))
 print(ceil(4.2))
 print(sqrt(64))
+
+"Storing user input"
+input('enter your name')

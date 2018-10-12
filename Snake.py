@@ -1,10 +1,19 @@
+"now we need to go over the code and go line by line and see what it do"
+
 import random
+"This will import random number"
+
 import curses
+"this will import or allow use to use the keyboard "
 
 s = curses.initscr()
+"this is to inital the curses "
 curses.curs_set(0)
+"this is to set the curses to postition zero"
 sh, sw = s.getmaxyx()
+"this is getting the screen height and screen width to screen max y and x axis "
 w = curses.newwin(sh, sw, 0, 0)
+"This is the postion of the snake"
 w.keypad(1)
 w.timeout(100)
 
@@ -57,4 +66,4 @@ while True:
 
     w.addch(snake[0][0], snake[0][1], curses.ACS_CKBOARD)
     
-    "now we need to go over the code and go line by line and see what it do"
+    

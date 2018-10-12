@@ -49,4 +49,5 @@ print(ceil(4.2))
 print(sqrt(64))
 
 "Storing user input"
-input('enter your name')
+name = input('enter your name')
+print('hello' + name)

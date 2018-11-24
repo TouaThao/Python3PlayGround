@@ -50,4 +50,7 @@ print(sqrt(64))
 
 "Storing user input"
 name = input('enter your name')
-print('hello' + name)
+age = input('enter your age')
+print('hello' + name + ' and your age is' +age)
+
+"adding"

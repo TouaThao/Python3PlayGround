@@ -61,3 +61,5 @@ print("Rose are " + color)
 print(pluralNoun +" are blue")
 print("I love "+ celebrity)
 print('hello '+ celebrity + ' favorite Color is ' + color+' And you like '+ pluralNoun)
+
+"Now we're going to built a list"

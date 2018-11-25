@@ -53,4 +53,10 @@ name = input('enter your name')
 age = input('enter your age')
 print('hello' + name + ' and your age is' +age)
 
-"adding"
+color = input("Enter a color")
+pluralNoun = input("Enter a color")
+celebrity = input("Enter a color")
+
+print("Rose are {color}")
+print("{pluralNoun} are blue")
+print("I love {celebrity}")

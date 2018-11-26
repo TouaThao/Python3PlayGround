@@ -48,19 +48,19 @@ print(floor(3.2))
 print(ceil(4.2))
 print(sqrt(64))
 
-"Storing user input"
-name = input('enter your name ')
-age = input('enter your age ')
-print('hello ' + name + ' and your age is ' +age)
+# "Storing user input"
+# name = input('enter your name ')
+# age = input('enter your age ')
+# print('hello ' + name + ' and your age is ' +age)
 
-color = input("Enter a color:")
-pluralNoun = input("Enter a pluralNoun:")
-celebrity = input("Enter a celebrity:")
+# color = input("Enter a color:")
+# pluralNoun = input("Enter a pluralNoun:")
+# celebrity = input("Enter a celebrity:")
 
-print("Rose are " + color)
-print(pluralNoun +" are blue")
-print("I love "+ celebrity)
-print('hello '+ celebrity + ' favorite Color is ' + color+' And you like '+ pluralNoun)
+# print("Rose are " + color)
+# print(pluralNoun +" are blue")
+# print("I love "+ celebrity)
+# print('hello '+ celebrity + ' favorite Color is ' + color+' And you like '+ pluralNoun)
 
 "Now we're going to built a list"
 friends = ['Toua','Thor','Trigun']
@@ -68,3 +68,10 @@ friends = ['Toua','Thor','Trigun']
 friends[1]= 'Tass'
 print(friends)
 print(friends[1])
+
+"list function"
+Lucky_numbers = [7,14,21,28]
+my_friends = ['Thor','IronMan','CaptainAmerica']
+"We could extend list to another list. It's like attaching them togather"
+my_friends.extend(Lucky_numbers)
+print(my_friends)

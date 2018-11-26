@@ -64,5 +64,7 @@ print('hello '+ celebrity + ' favorite Color is ' + color+' And you like '+ plur
 
 "Now we're going to built a list"
 friends = ['Toua','Thor','Trigun']
-
+"we could change the data inside of the friend array"
+friends[1]= 'Tass'
 print(friends)
+print(friends[1])

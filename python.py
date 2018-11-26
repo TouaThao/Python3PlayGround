@@ -63,3 +63,6 @@ print("I love "+ celebrity)
 print('hello '+ celebrity + ' favorite Color is ' + color+' And you like '+ pluralNoun)
 
 "Now we're going to built a list"
+friends = ['Toua','Thor','Trigun']
+
+print(friends)

@@ -74,4 +74,18 @@ Lucky_numbers = [7,14,21,28]
 my_friends = ['Thor','IronMan','CaptainAmerica']
 "We could extend list to another list. It's like attaching them togather"
 my_friends.extend(Lucky_numbers)
+"we could append. which mean to add something to the list. it's like a .push"
+my_friends.append('Hawkeye')
+'We could do insert. insert is to put in exactly what it mean. We need to put a number or postion of the new'
+'And the new data'
+my_friends.insert(1,'BlackWidow')
+'we could do remove. remove and we could select which we remove by typing in the name of the data'
+my_friends.remove('IronMan')
+'We could do a clear. This will clear the list'
+'we going to comment the clear out'
+'my_friends.clear()'
+'Pop will remove the last one'
+my_friends.pop()
 print(my_friends)
+'we going find a specifc value'
+print(my_friends.index('BlackWidow'))

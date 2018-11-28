@@ -71,7 +71,7 @@ print(friends[1])
 
 "list function"
 Lucky_numbers = [7,14,21,28]
-my_friends = ['Thor','IronMan','CaptainAmerica']
+my_friends = ['Thor','IronMan','CaptainAmerica','Thor']
 "We could extend list to another list. It's like attaching them togather"
 my_friends.extend(Lucky_numbers)
 "we could append. which mean to add something to the list. it's like a .push"
@@ -89,3 +89,5 @@ my_friends.pop()
 print(my_friends)
 'we going find a specifc value'
 print(my_friends.index('BlackWidow'))
+'Now we could also find out how many time it show up on our array'
+print(my_friends.count('Thor'))

@@ -91,5 +91,5 @@ print(my_friends)
 print(my_friends.index('BlackWidow'))
 'Now we could also find out how many time it show up on our array'
 print(my_friends.count('Thor'))
-
-print(my_friends)
+'Reverse'
+print(my_friends.reverse())

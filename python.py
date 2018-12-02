@@ -85,8 +85,8 @@ my_friends.remove('IronMan')
 'we going to comment the clear out'
 'my_friends.clear()'
 'Pop will remove the last one'
-my_friends.pop()
-print(my_friends)
+'my_friends.pop()'
+'print(my_friends)'
 'we going find a specifc value'
 print(my_friends.index('BlackWidow'))
 'Now we could also find out how many time it show up on our array'
